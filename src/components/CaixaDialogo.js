@@ -15,10 +15,10 @@ const CaixaDialogo = ({show, onClose, titulo, conteudo, onConfirm, icone}) => {
       <Modal.Body>{conteudo}</Modal.Body>
       <Modal.Footer>
         <Button variant="secondary" onClick={onClose}>
-          Botão de fechar modaisss
+          Botão de fechar
         </Button>
         <Button variant="primary" onClick={onConfirm}>
-          Botão de salvar informação
+          Botão de salvar
         </Button>
       </Modal.Footer>
     </Modal>  
