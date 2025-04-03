@@ -27,8 +27,6 @@ const App = () => {
     console.log('Ação confirmada!');
     fecharModal(); 
   };
-
-  //teste hooks 5
   return (
     <div>
       <Container>
