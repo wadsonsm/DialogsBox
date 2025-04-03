@@ -27,7 +27,8 @@ const App = () => {
     console.log('Ação confirmada!');
     fecharModal(); // Fecha o modal após a ação
   };
-//alteração de comentários
+
+  //comentários de teste
   return (
     <div>
       <Container>
