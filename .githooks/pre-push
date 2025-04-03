@@ -1,0 +1,11 @@
+#!/bin/bash
+# Obtém a referência da branch que está sendo empurrada
+while read local_ref local_sha remote_ref remote_sha
+do
+    branch_name=$(echo $remote_ref | sed 's|refs/heads/||')
+
+    if [[ "$branch_name" == "develop" ]]; then
+        echo "⛔️ Pushes diretos na branch 'develop' não são permitidos!"
+        exit 1
+    fi
+done
