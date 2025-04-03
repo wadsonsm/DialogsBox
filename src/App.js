@@ -20,15 +20,15 @@ const App = () => {
   };
 
   const fecharModal = () => {
-    setShowModal(false); // Fecha o modal
+    setShowModal(false);
   };
 
   const confirmarAcao = () => {
     console.log('Ação confirmada!');
-    fecharModal(); // Fecha o modal após a ação
+    fecharModal(); 
   };
 
-  //teste hooks
+  //teste hooks 5
   return (
     <div>
       <Container>
