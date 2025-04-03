@@ -20,14 +20,13 @@ const App = () => {
   };
 
   const fecharModal = () => {
-    setShowModal(false); // Fecha o modal
+    setShowModal(false);
   };
 
   const confirmarAcao = () => {
     console.log('Ação confirmada!');
-    fecharModal(); // Fecha o modal após a ação
+    fecharModal(); 
   };
-//comentário
   return (
     <div>
       <Container>
