@@ -28,7 +28,7 @@ const App = () => {
     fecharModal(); // Fecha o modal após a ação
   };
 
-  //comentários de teste
+  //comentários
   return (
     <div>
       <Container>
